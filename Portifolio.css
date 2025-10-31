@@ -229,12 +229,22 @@ footer a{
         display: block;
     }
 
-}
-.items1{
+     .items1{
     box-shadow: 2px 2px 2px 2px grey;
     border-radius: 8px;
     padding-left: 5px;
-    transform: scale(120% , 120%);
-    transition-property: all;
-    transition-timing-function: ease-out;
 }
+
+.items2{
+    box-shadow: 2px 2px 2px 2px grey;
+    border-radius: 8px;
+    padding-left: 5px;
+}
+
+.items3{
+    box-shadow: 2px 2px 2px 2px grey;
+    border-radius: 8px;
+    padding-left: 5px;
+}
+}
+
