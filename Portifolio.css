@@ -201,3 +201,32 @@ footer a{
     border-radius: 40px;
     background-color: aliceblue;
 }
+@media screen and (max-width: 575px) {
+    header li{
+        display: flex;
+        
+        padding: 5px;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .container img{
+        margin-top: 20px;
+    }
+
+    #About{
+        flex-direction: column;
+    }
+
+    .Parent{
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    footer a{
+        display: block;
+    }
+
+}
